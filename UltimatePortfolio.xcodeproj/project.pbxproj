@@ -16,6 +16,8 @@
 		8421034D25A4E33B00F991AE /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8421034C25A4E33B00F991AE /* CloudKit.framework */; };
 		84860C9325A5FC1300DAD8DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860C9225A5FC1300DAD8DC /* HomeView.swift */; };
 		84860C9625A5FDD800DAD8DC /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860C9525A5FDD800DAD8DC /* ProjectsView.swift */; };
+		84860CA425A623AA00DAD8DC /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860CA325A623AA00DAD8DC /* Item-CoreDataHelpers.swift */; };
+		84860CA725A6C10400DAD8DC /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860CA625A6C10400DAD8DC /* Project-CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		8421034C25A4E33B00F991AE /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		84860C9225A5FC1300DAD8DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		84860C9525A5FDD800DAD8DC /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		84860CA325A623AA00DAD8DC /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		84860CA625A6C10400DAD8DC /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +52,6 @@
 		8421032625A4D4E400F991AE = {
 			isa = PBXGroup;
 			children = (
-				84860C9225A5FC1300DAD8DC /* HomeView.swift */,
-				84860C9525A5FDD800DAD8DC /* ProjectsView.swift */,
-				8421034625A4D8CF00F991AE /* DataController.swift */,
 				8421033125A4D4E400F991AE /* UltimatePortfolio */,
 				8421033025A4D4E400F991AE /* Products */,
 				8421034B25A4E33B00F991AE /* Frameworks */,
@@ -68,9 +69,14 @@
 		8421033125A4D4E400F991AE /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				84860C9225A5FC1300DAD8DC /* HomeView.swift */,
+				84860C9525A5FDD800DAD8DC /* ProjectsView.swift */,
+				8421034625A4D8CF00F991AE /* DataController.swift */,
 				8421034925A4E16E00F991AE /* UltimatePortfolio.entitlements */,
 				8421033225A4D4E400F991AE /* UltimatePortfolioApp.swift */,
 				8421033425A4D4E400F991AE /* ContentView.swift */,
+				84860CA325A623AA00DAD8DC /* Item-CoreDataHelpers.swift */,
+				84860CA625A6C10400DAD8DC /* Project-CoreDataHelpers.swift */,
 				8421034225A4D56D00F991AE /* Main.xcdatamodeld */,
 				8421033625A4D4E500F991AE /* Assets.xcassets */,
 				8421033B25A4D4E500F991AE /* Info.plist */,
@@ -166,10 +172,12 @@
 			files = (
 				84860C9625A5FDD800DAD8DC /* ProjectsView.swift in Sources */,
 				8421034425A4D56D00F991AE /* Main.xcdatamodeld in Sources */,
+				84860CA725A6C10400DAD8DC /* Project-CoreDataHelpers.swift in Sources */,
 				8421034725A4D8CF00F991AE /* DataController.swift in Sources */,
 				8421033525A4D4E400F991AE /* ContentView.swift in Sources */,
 				84860C9325A5FC1300DAD8DC /* HomeView.swift in Sources */,
 				8421033325A4D4E400F991AE /* UltimatePortfolioApp.swift in Sources */,
+				84860CA425A623AA00DAD8DC /* Item-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,6 +18,8 @@
 		84860C9625A5FDD800DAD8DC /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860C9525A5FDD800DAD8DC /* ProjectsView.swift */; };
 		84860CA425A623AA00DAD8DC /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860CA325A623AA00DAD8DC /* Item-CoreDataHelpers.swift */; };
 		84860CA725A6C10400DAD8DC /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860CA625A6C10400DAD8DC /* Project-CoreDataHelpers.swift */; };
+		84860CD325A721C700DAD8DC /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860CD225A721C700DAD8DC /* EditItemView.swift */; };
+		84860CD625A726C000DAD8DC /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860CD525A726C000DAD8DC /* ItemRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		84860C9525A5FDD800DAD8DC /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		84860CA325A623AA00DAD8DC /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		84860CA625A6C10400DAD8DC /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		84860CD225A721C700DAD8DC /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		84860CD525A726C000DAD8DC /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			children = (
 				84860C9225A5FC1300DAD8DC /* HomeView.swift */,
 				84860C9525A5FDD800DAD8DC /* ProjectsView.swift */,
+				84860CD525A726C000DAD8DC /* ItemRowView.swift */,
+				84860CD225A721C700DAD8DC /* EditItemView.swift */,
 				8421034625A4D8CF00F991AE /* DataController.swift */,
 				8421034925A4E16E00F991AE /* UltimatePortfolio.entitlements */,
 				8421033225A4D4E400F991AE /* UltimatePortfolioApp.swift */,
@@ -174,10 +180,12 @@
 				8421034425A4D56D00F991AE /* Main.xcdatamodeld in Sources */,
 				84860CA725A6C10400DAD8DC /* Project-CoreDataHelpers.swift in Sources */,
 				8421034725A4D8CF00F991AE /* DataController.swift in Sources */,
+				84860CD625A726C000DAD8DC /* ItemRowView.swift in Sources */,
 				8421033525A4D4E400F991AE /* ContentView.swift in Sources */,
 				84860C9325A5FC1300DAD8DC /* HomeView.swift in Sources */,
 				8421033325A4D4E400F991AE /* UltimatePortfolioApp.swift in Sources */,
 				84860CA425A623AA00DAD8DC /* Item-CoreDataHelpers.swift in Sources */,
+				84860CD325A721C700DAD8DC /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

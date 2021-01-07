@@ -25,15 +25,13 @@ struct ProjectsView: View {
             List {
                 ForEach(projects.wrappedValue) { project in
                     Section(header: Text(project.projectTitle)) {
-                        ForEach(project.projectItems) { item in
-                            Text(item.itemTitle)
-                        }
+                        ForEach(project.projectItems, content: ItemRowView.init)
                     }
                 }
             }
-            .listStyle(InsetGroupedListStyle())
-            .navigationTitle(showClosedProjects ? "Closed Projects" : "Open Projects")
         }
+        .listStyle(InsetGroupedListStyle())
+        .navigationTitle(showClosedProjects ? "Closed Projects" : "Open Projects")
     }
 }
 

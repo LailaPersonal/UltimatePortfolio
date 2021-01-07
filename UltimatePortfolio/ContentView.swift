@@ -30,7 +30,7 @@ struct ContentView: View {
             ProjectsView(showClosedProjects: true)
                 .tag(ProjectsView.closedTag)
                 .tabItem {
-                    Image(systemName: "checkMark")
+                    Image(systemName: "checkmark")
                     Text("Closed")
                 }
         }
